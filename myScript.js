@@ -1,0 +1,1 @@
+<script src="адрес_файла"></script>

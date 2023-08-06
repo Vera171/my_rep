@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>Магазин товаров для дома</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Интернет-магазин товаров для дома</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <h1>Gloevk</h1>
-        <p>Разнообразные товары для дома с доставкой по всей планете</p>
-        <img src="img/gloevk-examples.png" width="510" height="80" alt="Примеры интерьеров">
-      </div>
+        <img class="logo" src="img/logo-full.svg" width="62" height="17" alt="Логотип магазина gloevk">
+    </div>
     </header>
-
-    <section class="features">
-      <h2>Что поможет вам создать домашний уют?</h2>
-      <p class="feature-furniture">Мебель и фурнитура</p>
-      <p class="feature-lighting">Лампы и торшеры</p>
-      <p class="feature-accessories">Аксессуары и мелочи</p>
+    <section class="intro">
+      <div class="intro-container">
+        <h1 class="title">Комфорт и уют в <b>вашей</b> квартире</h1>
+        <p>Разнообразные товары для дома с доставкой по всей планете</p>
+      </div>
     </section>
-
-    <section class="advantages">
-      <h2>Что выделяет нас среди конкурентов?</h2>
-      <ul class="advantages-list">
-        <li class="advantages-item">Используем только природные материалы</li>
-        <li class="advantages-item standard">Ежедневные отчёты о ходе работ</li>
-        <li class="advantages-item standard">Сами соберём мебель для вас</li>
-        <li class="advantages-item vip">Бесплатное гарантийное обслуживание в течение 10 лет</li>
-        <li class="advantages-item vip">Доставка в день заказа</li>
-      </ul>
+    <section class="popular-products">
+      <div class="container">
+        <h2 class="section-title">Самые <b>популярные</b> товары</h2>
+        <ul class="products-list">
+          <li class="product-card">
+            <h3>Мсеюлида</h3>
+            <p>лампа напольная</p>
+            <p class="price"><del>289₽</del> 288₽</p>
+            <img src="img/item-mseyulida.jpg" width="156" height="120" alt="Напольная лампа «Мсеюлида»">
+          </li>
+          <li class="product-card product-card-new">
+            <h3>Рмаериби</h3>
+            <p>диван трёхместный</p>
+            <p class="price">5870₽</p>
+            <img src="img/item-rmaeribi.jpg" width="156" height="120" alt="Трёхместный диван «Рмаериби»">
+          </li>
+          <li class="product-card">
+            <h3>Блетуб</h3>
+            <p>люстра потолочная</p>
+            <p class="price">1360₽</p>
+            <img src="img/item-bletub.jpg" width="156" height="120" alt="Потолочная люстра «Блетуб»">
+          </li>
+        </ul>
+      </div>
     </section>
-
     <footer class="site-footer">
       <div class="container">
-        <p>© Кекс, 2020</p>
-        <p>Магазин товаров для дома</p>
+        <img class="logo-link" src="img/logo-short.svg" width="47" height="13" alt="Логотип магазина gloevk">
+        <p class="copyright">© 2020</p>
       </div>
     </footer>
   </body>
 </html>
+

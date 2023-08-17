@@ -3,113 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Basics</title>
+  <style>
+    html {
+      padding: 0;
+    }
+    * {
+      border: 1px dashed #000;
+      padding: 10px;
+    }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-rows: 200px 1fr 200px;
+      grid-template-columns: 200px 1fr 200px;
+      font-size: 30px;
+      font-weight: 900;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+    }
+    header,
+    footer {
+      background-color: red;
+      grid-column: 1 / 4;
+    }
+    main {
+      grid-column: 1 / 3;
+    }
+    section,
+    article,
+    nav {
+      margin: 20px;
+    }
+    header { background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); }
+    footer { background-image: linear-gradient(to right, #ff8177 0%, #cf556c 100%); }
+    main { background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); }
+    section { background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); }
+    nav { background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+    article { background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); }
+    aside { background-image: linear-gradient(to right, #d4fc79 0%, #f68084 100%); }
+  </style>
 </head>
 <body>
 
-  <!-- Headings -->
-  <h1>Different Headings</h1>
-  <h2>Different Headings</h2>
-  <h3>Different Headings</h3>
-  <h4>Different Headings</h4>
-  <h5>Different Headings</h5>
-  <h6>Different Headings</h6>
-  <hr>
+  <!-- Header -->
+  <header>
+  HEADER
+    <!-- Main navigation -->
+    <nav>NAVIGATION</nav>
 
-  <!-- Paragraph -->
-  <p>Simple paragraph with text.</p>
-  <hr>
+  </header>
 
-  <!-- Information about author -->
-  <p>Here is my HTML basics course, which was created on 2019.</p>
-  <address>Yauhen Kavalchuk, YouTube lecturer</address>
-  <hr>
+  <!-- Main part of site -->
+  <main>
+  MAIN
+    <!-- Independent block -->
+    <section>
+    SECTION
+      <!-- Peace of news, article -->
+      <article>ARTICLE 1</article>
+      <article>ARTICLE 2</article>
+      <article>ARTICLE 3</article>
 
-  <!-- Quote and author -->
-  <q>Hello, welcome to "webDev" channel</q>
-  <address>Yauhen Kavalchuk, YouTube lecturer</address>
-  <hr>
+    </section>
 
-  <!-- Block of Quote -->
-  <blockquote>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-    </p>
-  </blockquote>
-  <hr>
+    <section>
+      SECTION
+      <article>ARTICLE 4</article>
+    </section>
 
-  <!-- Time or date information -->
-  <time>1989-01-26</time>
-  <br>
-  <time datetime="1989-01-26">My Birthday</time>
-  <hr>
+  </main>
 
-  <!-- Bold & Italic, Typing, Deleted text -->
-  <b>Bold text</b><br>
-  <i>Italic text</i><br>
-  <tt>Typing text</tt><br>
-  <s>Deleted text</s>
-  <hr>
+  <!-- Aditional information -->
+  <aside>ASIDE</aside>
 
-  <!-- Code examples -->
-  <code>
-    const args = {
-      name: "Yauhen",
-      age: 30
-    };
-    const getDate = () => new Date;
-  </code>
-  <hr>
-
-  <!-- Save test formating -->
-  <pre>
-    <code>
-      const args = {
-        name: "Yauhen",
-        age: 30
-      };
-      const getDate = () => new Date;
-    </code>
-  </pre>
-  <hr>
-
-  <!-- Bold & Italic text with semantic accent -->
-  <strong>Bold accent text</strong><br>
-  <em>Italic accent text</em><br>
-  <hr>
-
-  <!-- Small text -->
-  <small>Small</small>
-  <h2>To know HTML <small>semantic</small> is important</h2>
-  <hr>
-
-  <!-- Small text -->
-  <big>Big</big>
-  <h2>To know HTML <big>semantic</big> is important</h2>
-  <hr>
-
-  <!-- Deleted text -->
-  <del>Deleted</del>
-  <h2>To know HTML <del>semantic</del> is important</h2>
-  <hr>
-
-  <!-- Inserted/added text -->
-  <ins>Inserted</ins>
-  <h2>To know HTML <ins>semantic</ins> is important</h2>
-  <hr>
-
-  <!-- Subscripted text -->
-  <sub>Subscripted</sub>
-  <h2>To know HTML <sub>semantic</sub> is important</h2>
-  <h2>H<sub>2</sub>O</h2>
-  <hr>
-
-  <!-- Superscripted text -->
-  <sup>Superscripted</sup>
-  <h2>To know HTML <sup>semantic</sup> is important</h2>
-  <h2>X<sup>2</sup> = 9</h2>
-  <hr>
+  <!-- Footer -->
+  <footer>FOOTER</footer>
 
 </body>
 </html>

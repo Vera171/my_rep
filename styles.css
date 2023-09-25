@@ -24,5 +24,13 @@ body {
     color: #86898f;
     margin: 0;
     font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 05px; */
+    /* word-spacing: 42px; */
+}
 
+.social {
+    background: red;
 }

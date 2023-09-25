@@ -30,6 +30,9 @@ body {
     /* letter-spacing: 05px; */
     /* word-spacing: 42px; */
 }
+.container {
+    max-width: 750px;
+}
 
 .social {
     background: red;

@@ -79,4 +79,8 @@ a:visited {
 
     } */
 
-    
+    .card {
+        padding: 15px 20px;
+        background-color: red;
+
+    }

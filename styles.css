@@ -30,10 +30,11 @@ a:active {
 a:visited {
     color: gray;
 }
+
 .avatar {
     width: 200px;
     border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.025);
 }
 
 .info p {
@@ -50,6 +51,7 @@ a:visited {
 .container {
     max-width: 750px;
     margin: auto;
+    padding-top: 30px;
 }
 
 /*.social {

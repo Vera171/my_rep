@@ -112,3 +112,7 @@ a:visited {
     .card h2 {
         margin-bottom: 10px;
     }
+
+    .list {
+        padding: 0 20px;
+    }
